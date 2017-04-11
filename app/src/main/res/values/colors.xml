@@ -3,4 +3,21 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <!--主题颜色 官方红色-->
+    <color name="colorhomered">#d81e06</color>
+    <!--主题颜色 官方蓝色-->
+    <color name="colorhomelan">#22759f</color>
+    <!-- 主题颜色 官方橘红色-->
+    <color name="colorhomejuhong">#FA6422</color>
+    <!--主题颜色 官方灰色 -->
+    <color name="colorhomehui">#666666</color>
+    <!-- 白色-->
+    <color name="colorbaise">#FFF</color>
+    <!--默认的背景淡灰白颜色-->
+    <color name="colordanbg">#EEEFF3</color>
+    <color name="colorHei">#000</color>
+    <color name="color_bg_ban_touming">#e0000000</color>
+    <!-- 淡灰色颜色,在白底下面使用，如搜索框的颜色-->
+    <color name="colorqianhuise">#F3F3F3</color>
 </resources>
