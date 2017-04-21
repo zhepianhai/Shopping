@@ -20,4 +20,6 @@
     <color name="color_bg_ban_touming">#e0000000</color>
     <!-- 淡灰色颜色,在白底下面使用，如搜索框的颜色-->
     <color name="colorqianhuise">#F3F3F3</color>
+
+    <color name="color_listviewitem">#333333</color>
 </resources>

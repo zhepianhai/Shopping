@@ -1,13 +1,49 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colordanbg"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="zph.zhjx.com.shopping.me.MeFragment">
-
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <RelativeLayout
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/me_setting_layout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="me" />
+        android:layout_height="48dp"
+        android:layout_marginTop="9dp"
+        android:background="@drawable/relalayout_select">
 
-</FrameLayout>
+        <android.support.v7.widget.AppCompatImageView
+            android:id="@+id/me_setting_layout_icon"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            app:srcCompat="@drawable/ic_setting" />
+
+        <android.support.v7.widget.AppCompatImageView
+            android:visibility="visible"
+            android:layout_marginRight="10dp"
+            android:id="@+id/me_setting_layout_point"
+            android:layout_width="8dp"
+            android:layout_height="8dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            app:srcCompat="@drawable/ic_hongdian" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/me_setting_layout_point"
+            android:layout_toRightOf="@+id/me_setting_layout_icon"
+            android:gravity="center|left"
+            android:maxLines="1"
+            android:text="系统设置"
+            android:textColor="@color/color_listviewitem"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

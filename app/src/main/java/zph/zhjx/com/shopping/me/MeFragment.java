@@ -14,7 +14,7 @@ import zph.zhjx.com.shopping.R;
  * A simple {@link Fragment} subclass.
  */
 public class MeFragment extends Fragment {
-
+    private View view;
 
     public MeFragment() {
         // Required empty public constructor
@@ -23,9 +23,11 @@ public class MeFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        Log.i("TAG","MeFragment_onCreateView");
-        return inflater.inflate(R.layout.fragment_me, container, false);
+        view=inflater.inflate(R.layout.fragment_me, container, false);
+
+
+
+        return view;
     }
 
     @Override

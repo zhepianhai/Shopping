@@ -25,6 +25,7 @@ public class MenuActivity extends BaseActivity implements BottomNavigationBar.On
     private ViewPager viewPager;
     private BottomNavigationBar bottomNavigationBar;
     private List<Fragment> fragments;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
